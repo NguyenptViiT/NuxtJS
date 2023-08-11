@@ -4,8 +4,8 @@
       <svg
         v-if="!isSearch"
         xmlns="http://www.w3.org/2000/svg"
-        width="18px"
-        height="18px"
+        width="16px"
+        height="16px"
         viewBox="0 0 19 19"
         class="cursor-pointer icon-hover"
       >
@@ -30,11 +30,11 @@
     </button>
     <div
       v-if="isSearch"
-      class="absolute bottom-[-60%] translate-y-[100%] right-0 w-[300px] shadow p-[15px] flex items-stretch"
+      class="absolute bottom-[-60%] translate-y-[100%] right-0 w-[300px] shadow px-[15px] py-[18px] bg-white z-50 flex items-stretch"
     >
       <input
         type="text"
-        class="bg-[#f5f5f5] outline-none px-[10px] py-[5px] rounded-l-[5px] max-w-[180px]"
+        class="bg-[#f5f5f5] outline-none px-[10px] py-[5px] rounded-l-[5px] max-w-[180px] h-[36px]"
       />
       <button
         class="bg-[#0099e5] px-[10px] w-full text-white font-semibold text-[15px] cursor-pointer"
