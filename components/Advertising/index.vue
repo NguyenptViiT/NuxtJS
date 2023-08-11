@@ -7,7 +7,7 @@
           <img
             src="/advertising1.jpg"
             alt=""
-            class="object-cover max-h-[120px] w-full"
+            class="object-cover lg:max-h-[120px] max-h-[250px] w-full"
           />
         </NuxtLink>
       </div>
@@ -23,7 +23,7 @@
           <img
             src="/advertising2.jpg"
             alt=""
-            class="object-cover max-h-[120px] w-full"
+            class="object-cover lg:max-h-[120px] max-h-[250px] w-full"
           />
         </NuxtLink>
       </div>
@@ -37,7 +37,7 @@
           <img
             src="/advertising3.jpg"
             alt=""
-            class="object-cover max-h-[120px] w-full"
+            class="object-cover lg:max-h-[120px] max-h-[250px] w-full"
           />
         </NuxtLink>
       </div>
@@ -51,7 +51,7 @@
       <img
         src="/advertising4.jpg"
         alt=""
-        class="object-cover max-h-[220px] w-full"
+        class="object-cover lg:max-h-[220px] max-h-[600px] w-full"
       />
     </NuxtLink>
   </div>

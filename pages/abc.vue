@@ -2,11 +2,11 @@
   <div class="">
     <Header />
     <div
-      class="lg:flex grid grid-cols-1 flex-row gap-x-[32px] pt-[26px] shadow pb-[30px] px-[11px]"
+      class="flex flex-row gap-x-[32px] pt-[26px] shadow pb-[30px] px-[11px]"
     >
-      <div class="lg:basis-[75%]">
-        <div class="lg:flex grid grid-cols-1 gap-x-[30px]">
-          <div class="lg:basis-[40%]">
+      <div class="basis-[75%]">
+        <div class="flex gap-x-[30px]">
+          <div class="basis-[40%]">
             <div>
               <TypePost
                 image="/fashion1.jpg"
@@ -26,7 +26,7 @@
               />
             </div>
           </div>
-          <div class="lg:basis-[60%]">
+          <div class="basis-[60%]">
             <div>
               <img
                 src="/imageContent1.jpg"
@@ -40,9 +40,7 @@
             </div>
           </div>
         </div>
-        <div
-          class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-x-[23px] mt-[20px] mb-[20px]"
-        >
+        <div class="grid grid-cols-4 gap-x-[23px] mt-[20px] mb-[20px]">
           <TypePost
             image="/fashion4.jpg"
             type="Fashion"
@@ -145,17 +143,14 @@
           />
         </div>
       </div>
-      <div class="lg:basis-[25%] pt-[4px]">
+      <div class="basis-[25%] pt-[4px]">
         <FollowUs />
         <Blogging />
         <Advertising />
         <Fashion />
       </div>
     </div>
-    <!-- MAKETING -->
-    <div
-      class="grid md:grid-cols-3 grid-cols-1 gap-x-[30px] mb-[30px] px-[11px]"
-    >
+    <div class="grid grid-cols-3 gap-x-[30px] mb-[30px] px-[11px]">
       <TypeField
         image="/technology1.jpg"
         desc="SEO Copywriting: How to Write Content For People and Optimize For Google"
@@ -220,11 +215,3 @@
     <Footer />
   </div>
 </template>
-
-<script setup>
-import Header from "../layouts/Header";
-import Footer from "../layouts/Footer";
-import TypeBusiness from "../components/Business/TypeBusiness.vue";
-</script>
-
-<style lang="scss" scoped></style>
