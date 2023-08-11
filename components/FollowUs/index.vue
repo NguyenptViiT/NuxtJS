@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[4px]">
+  <div class="mb-[40px]">
     <TagDesc />
     <div class="grid grid-cols-2">
       <div
